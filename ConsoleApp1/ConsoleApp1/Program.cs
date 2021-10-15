@@ -22,7 +22,7 @@ namespace ConsoleApp1
                 Console.WriteLine($"行政區:{x.Key}數量:{x.ToList().Count}");
                 items.ForEach(x =>
                 {
-                    Console.WriteLine(x.ToString());
+                    Console.WriteLine($"行政區:{x.行政區} 醫院名稱:{x.醫院名稱} 連絡電話:{x.連絡電話}");
                 });
             });
 
